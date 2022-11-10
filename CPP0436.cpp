@@ -31,7 +31,7 @@ int main()
 		for (int i = 0; i < n; i++) {
 			if (m[i] == max)
                 cout << "_ ";
-			else
+			else    
 			for (int j = m[i] + 1; j <= max; j++) 
             {
 				if (z[j] > 0) 
